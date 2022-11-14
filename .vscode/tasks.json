@@ -1,0 +1,20 @@
+{
+    "version": "1.0.0",
+    "tasks": [
+        {
+            "label": "Run rspec test file",
+            "command": "bundle exec rspec ${file}",
+            "runOptions": {
+                "reevaluateOnRerun": false
+            },
+            "args": [],
+            "type": "shell",
+             "options": {
+                "cwd": "${workspaceRoot}"
+            },
+            "presentation": {
+                "reveal": "always"
+            }
+        }
+    ]
+}
