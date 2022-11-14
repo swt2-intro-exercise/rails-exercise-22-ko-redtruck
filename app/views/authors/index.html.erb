@@ -5,11 +5,12 @@
     <th></th>
   </tr>
  
-  <% @authors.each do |article| %>
+  <% @authors.each do |author| %>
     <tr>
-      <td><%= article.title %></td>
-      <td><%= article.text %></td>
-      <td><%= link_to 'Show', article_path(article) %></td>
+      <td><%= author.name %></td>
+      <td><%= author.homepage %></td>
     </tr>
   <% end %>
+
+  <%= link_to 'New', new_author_path %>
 </table>
