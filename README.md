@@ -1,5 +1,5 @@
 https://stackoverflow.com/questions/10940736/rbenv-not-changing-ruby-version
-
+k
 # Ruby on Rails Introductory Exercise
 
 This is an interactive exercise introducing web development with Ruby on Rails 7.0 based on the [v6.0 Rails Guide](https://guides.rubyonrails.org/v6.0/getting_started.html). It is used in HPI's [Scalable Software Engineerung course](https://hpi.de/plattner/teaching/winter-term-2022-23/scalable-software-engineering.html).
