@@ -57,7 +57,7 @@ Three options to setup your local Ruby on Rails development environment:
 ### 4) Commit and push
 
 * When the tests pass on your local machine, push your changes to GitHub.
-* GitHub Actions workflows will run. You can check their state using the `Actions` tab on the repo website.
+* GitHub Actifaons workflows will run. You can check their state using the `Actions` tab on the repo website.
 
 ### 5) Check your inbox / issues
 
