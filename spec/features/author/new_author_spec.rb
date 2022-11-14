@@ -27,5 +27,9 @@ describe "New author page", type: :feature do
     find('input[type="submit"]').click
   end
 
-
+  it "Should display an error when you try to submit an author without a last_name" do
+    visit new_author_path
+    find('input[type="submit"]').click
+    expect(page).to have_text("error")
+  end
 end
