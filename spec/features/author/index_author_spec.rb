@@ -5,4 +5,7 @@ describe "Authors page", :type => :feature do
     visit authors_path
     expect(page).to have_link 'New', href: new_author_path
   end
+  it "should link to the authors pages" do
+    visit authors_path
+  end
 end
